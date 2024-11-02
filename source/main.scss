@@ -1,0 +1,19 @@
+@use './config/reset';
+@use './config/responsive';
+@use './body/sessaoProdutos';
+@use './header/cabecalho';
+
+/* Declaraçãoes globais do codigo */
+body {
+    background-color: #f5f6fa;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
